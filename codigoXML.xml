@@ -1,0 +1,53 @@
+Esta línea declara la versión del lenguaje XML y la codificación utilizada (UTF-8 en este caso).//
+<?xml version="1.0" encoding="UTF-8"?>
+Este es el elemento raíz del documento XML y define un menú de desayuno.//
+<breakfast_menu>
+Este es un elemento secundario dentro del menú de desayuno. Representa un plato de comida específico.//
+<food>
+ Aquí se especifica el nombre del plato, que en este caso es “Belgian Waffles”.//
+    <name>Belgian Waffles</name>
+    Esta línea indica el precio del plato, que es $5.95.//
+    <price>$5.95</price>
+    La descripción proporciona información sobre el plato, en este caso,
+     que son dos waffles belgas famosos con abundante jarabe de arce real.//
+    <description>
+   Two of our famous Belgian Waffles with plenty of real maple syrup
+   </description>
+    <calories>650</calories>
+</food>
+Este es un elemento secundario dentro del menú de desayuno. Representa un plato de comida específico.//
+<food>
+    <name>Strawberry Belgian Waffles</name>
+    <price>$7.95</price>
+    <description>
+    Light Belgian waffles covered with strawberries and whipped cream
+    </description>
+    <calories>900</calories>
+</food>
+Este es un elemento secundario dentro del menú de desayuno. Representa un plato de comida específico.//
+<food>
+    <name>Berry-Berry Belgian Waffles</name>
+    <price>$8.95</price>
+    <description>
+    Belgian waffles covered with assorted fresh berries and whipped cream
+    </description>
+    <calories>900</calories>
+</food>
+Este es un elemento secundario dentro del menú de desayuno. Representa un plato de comida específico.//
+<food>
+    <name>French Toast</name>
+    <price>$4.50</price>
+    <description>
+    Thick slices made from our homemade sourdough bread
+    </description>
+    <calories>600</calories>
+</food>
+<food>
+    <name>Homestyle Breakfast</name>
+    <price>$6.95</price>
+    <description>
+    Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+    </description>
+    <calories>950</calories>
+</food>
+</breakfast_menu>
